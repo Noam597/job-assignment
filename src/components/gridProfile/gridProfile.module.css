@@ -1,0 +1,29 @@
+
+.profile{
+text-align: left;
+cursor: pointer;
+}
+
+.name{
+    font-size: x-large;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.company{
+    color:red;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .profile{
+        width: 350px;
+       left:10%;
+    }
+    .profile img{
+        width: 150px;
+      
+    }
+}

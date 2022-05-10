@@ -1,0 +1,22 @@
+
+.profile{
+    width: 550px;
+    padding: 10px;
+    left: 30%;
+    background-color: white;
+    position: absolute;
+    opacity: 1;
+   
+}
+.profile img{
+   
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px){
+    .profile{
+        width: 350px;
+       left:10%;
+    }
+    
+}
